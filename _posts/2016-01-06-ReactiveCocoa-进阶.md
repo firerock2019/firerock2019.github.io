@@ -14,7 +14,7 @@ tags:
 ---
 # 前言
 
->灵感来源[链接](https://mp.weixin.qq.com/s/S2bL7-5uSNvVqiWCMqjG1w)中『又来瞎鼓捣』我用 Python 生成了一张全体微信好友的头像墙。
+>灵感来源：[『又来瞎鼓捣』我用 Python 生成了一张全体微信好友的头像墙](https://mp.weixin.qq.com/s/S2bL7-5uSNvVqiWCMqjG1w)
 
 ![Python 楚门的世界](http://img0.imgtn.bdimg.com/it/u=3841198930,2907883680&fm=26&gp=0.jpg)
 
@@ -27,16 +27,16 @@ tags:
 
 #### 操作思想
 
-	pynput打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。
-	再对储存的头像进行处理，用AndreaMosaic生成图片。
+pynput打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。
+再对储存的头像进行处理，用AndreaMosaic生成图片。
 
 #### 操作方法
 
 **相关链接：**
 
-	[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)
-	[pynput 1.4.2](https://pypi.org/project/pynput/)
-	谷歌：`多张人脸拼成一张`
+[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)
+[pynput 1.4.2](https://pypi.org/project/pynput/)
+谷歌：`多张人脸拼成一张`
 
 #### 注意事项
 
@@ -60,7 +60,7 @@ tags:
 #### 写在最后
 
 
-我这个和sunbelife那版不一样，不构成抄袭。
+我这个和sunbelife那个，用到的方法都不一样。他用的是第三方微信的库，我觉得....就还是算了，所以也不构成抄袭。
 
 
 ```
