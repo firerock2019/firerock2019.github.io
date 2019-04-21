@@ -27,16 +27,16 @@ tags:
 
 #### 操作思想
 
-pynput打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。
+pynput打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。  
 再对储存的头像进行处理，用AndreaMosaic生成图片。
 
 #### 操作方法
 
 **相关链接：**
 
-[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)
-[pynput 1.4.2](https://pypi.org/project/pynput/)
-谷歌：`多张人脸拼成一张`
+[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)  
+[pynput 1.4.2](https://pypi.org/project/pynput/)  
+谷歌：`多张人脸拼成一张`  
 
 #### 注意事项
 
