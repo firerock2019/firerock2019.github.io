@@ -1,15 +1,15 @@
 ---
 layout:     post
 title:      填个坑
-subtitle:   函数式编程框架 ReactiveCocoa 进阶
+subtitle:   Python 生成了一张全体微信好友的头像墙
 date:       2019-04-21
 author:     TRY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS
-    - ReactiveCocoa
-    - 函数式编程
+    - Python3
+    - pynput
+    - 熵无限大
     - 开源框架
 ---
 # 前言
@@ -17,7 +17,7 @@ tags:
 >灵感来源[链接](https://mp.weixin.qq.com/s/S2bL7-5uSNvVqiWCMqjG1w)中『又来瞎鼓捣』我用 Python 生成了一张全体微信好友的头像墙。介绍了**ReactiveCocoa**的基础知识,接下来我们来深入介绍**ReactiveCocoa**及其在**MVVM**中的用法。
 
 
-![ReactiveCocoa进阶思维导图](https://ww3.sinaimg.cn/large/006y8lVagw1fbgye3re5xj30je0iomz8.jpg)
+![Python pic](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2150780143,1380810452&fm=58&bpow=1372&bpoh=864)
 # 常见操作方法介绍
 
 
