@@ -10,41 +10,35 @@ tags:
     - Python3
     - pynput
     - 熵无限大
-    - 开源框架
+    
 ---
 # 前言
 
->灵感来源[链接](https://mp.weixin.qq.com/s/S2bL7-5uSNvVqiWCMqjG1w)中『又来瞎鼓捣』我用 Python 生成了一张全体微信好友的头像墙。介绍了**ReactiveCocoa**的基础知识,接下来我们来深入介绍**ReactiveCocoa**及其在**MVVM**中的用法。
+>灵感来源[链接](https://mp.weixin.qq.com/s/S2bL7-5uSNvVqiWCMqjG1w)中『又来瞎鼓捣』我用 Python 生成了一张全体微信好友的头像墙。
 
+![Python 楚门的世界](https://img3.doubanio.com/view/photo/l/public/p480420695.webp)
 
-![Python pic](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2150780143,1380810452&fm=58&bpow=1372&bpoh=864)
-# 常见操作方法介绍
-
-
-#### 工具
+#### 工具准备
 
 Windows+Python3
 pynput
+wechat for windows
 
 #### 操作思想
 
-运用的是Hook（钩子）思想，Hook是一种用于改变API(应用程序编程接口：方法)执行结果的技术.
-
-Hook用处：截获API调用的技术。
-
-有关Hook的知识可以看我的这篇博客[《Objective-C Runtime 的一些基本使用》](http://www.jianshu.com/p/ff114e69cc0a)中的 *更换代码的实现方法* 一节,
-
-Hook原理：在每次调用一个API返回结果之前，先执行你自己的方法，改变结果的输出。
+pynput打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。
+再对储存的头像进行处理，生成图片。
 
 #### 操作方法
 
-#### **bind**（绑定）- ReactiveCocoa核心方法
+**相关链接：**
+[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)
+[pynput 1.4.2](https://pypi.org/project/pynput/)
 
-**ReactiveCocoa** 操作的核心方法是 **bind**（绑定）,而且也是RAC中核心开发方式。之前的开发方式是赋值，而用RAC开发，应该把重心放在绑定，也就是可以在创建一个对象的时候，就绑定好以后想要做的事情，而不是等赋值之后在去做事情。
+#### 注意事项
 
-列如，把数据展示到控件上，之前都是重写控件的 `setModel` 方法，用RAC就可以在一开始创建控件的时候，就绑定好数据。
 
-- **作用**
+- **微信**
 
 	RAC底层都是调用**bind**， 在开发中很少直接使用 **bind** 方法，**bind**属于RAC中的底层方法，我们只需要调用封装好的方法，**bind**用作了解即可.
 
@@ -81,8 +75,10 @@ pod 'SDWebImage'
 end
 ```
 
-#### 运行效果
+#### 写在最后
 
+
+我这个和sunbelife那版不一样，不构成抄袭。
 ![](https://ww3.sinaimg.cn/large/006y8lVagw1fbgw1xnz74j30bj0l4408.jpg)
 
 
@@ -90,4 +86,4 @@ end
 
 ```
 
->最后附上GitHub：<https://github.com/qiubaiying/ReactiveCocoa_Demo>
+>最后附上启发者GitHub：<https://github.com/sunbelife>
