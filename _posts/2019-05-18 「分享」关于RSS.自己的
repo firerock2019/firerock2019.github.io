@@ -1,0 +1,68 @@
+---
+layout:     post
+title:      「分享」建立自己的RSS空间
+subtitle:   ttr配置
+date:       2019-05-18
+author:     TRY
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - RSS
+    - TTR
+    - 熵无限大
+    
+---
+# 前言
+
+>参考：[『百度』tinytinyrss](https://www.baidu.com/s?wd=tinytinyrss&ie=utf-8)
+
+![RSS-Photo](img/post-fr-rss.jpg)
+
+#### 工具准备
+
+	Windows+Python3
+	pynput
+	wechat for windows
+	AndreaMosaic
+
+#### 操作思想
+
+pynput(自动化工具)打几个点，对windows版微信进行操作。操作就是一个接一个的点开头像，然后保存。  
+再对储存的头像进行处理，用AndreaMosaic生成图片。
+
+#### 操作方法
+
+**相关链接：**
+
+[python用pynput监听控制键盘鼠标](https://www.jianshu.com/p/03010ac70e4c)  
+[pynput 1.4.2](https://pypi.org/project/pynput/)  
+谷歌：`多张人脸拼成一张`  
+
+#### 注意事项
+
+
+- **微信**
+
+	微信这个软件很鸡贼，打开头像的次数太多就故意打开失败。遇到这种情况可以`监控下储存头像的文件夹的文件数`，如果没有增长就重新打开一次这个人的微信头像就好了
+
+	
+
+- **还是微信**
+
+	Python完全模拟键盘和鼠标，涉及一个怎么存完一个人的头像存第二个人的问题。很简单，点一下聊天人那一列，在点回联系人，按下下箭头就可以了（不截图了）
+
+
+#### 源代码
+
+	无（因为菜）
+	
+	
+#### 写在最后
+
+
+我这个和sunbelife那个，用到的方法都不一样。他用的是第三方微信的库，我觉得....就还是算了，所以也不构成抄袭。
+
+
+```
+
+>最后附上启发者GitHub：<https://github.com/sunbelife>
