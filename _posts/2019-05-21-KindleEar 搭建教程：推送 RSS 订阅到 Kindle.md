@@ -16,7 +16,7 @@ tags:
 文章转自[KindleEar 搭建教程：推送 RSS 订阅到 Kindle
 ](https://bookfere.com/post/19.html)
 
-##正文
+---
 
 KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在 Github。它可运行在免费的 Google APP Engine 上，把 RSS 生成排版精美的杂志模式的 MOBI 文件，并按照设置定时自动推送至你的 Kindle。如果你有 Python 和前端基础，还可以自定义排版，生成你需要的最完美的 MOBI 文件。
 
@@ -80,11 +80,11 @@ KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用�
 
 Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接上传会出现下面这样的错误提示：
 
-(```)
+```
 Error 404: --- begin server output ---
 This application does not exist (project_id=u'sample-appid'). To create an App Engine application in this project, run "gcloud beta app create" in your console.
 --- end server output ---
-(```)
+```
 
 
 所以，当创建完 Google Cloud 项目之后，还需要手动创建一个 Google App Engine 应用。方法有两种：一种是使用云端 Shell 创建；另一种是在 Console 页面上进行。可根据自己的喜好选用。
