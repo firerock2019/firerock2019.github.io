@@ -102,3 +102,31 @@ gcloud beta app create
 命令执行后会出现 Which region would you like to choose? 字样，询问选择应用的位置，在 Please enter your numeric choice: 之后输入数字 1，稍等片刻即可完成 GAE 应用的创建。
 
 方法二：点击 Google Cloud 页面左上角的菜单按钮，点击弹出菜单中的“App Engine”。在“您的第一个应用”那里点击“选择一种语言”，选择“Python”。接下来“选择位置”中页面中选择“us-central”，最后点击下一步就等待它自动部署，只到出现“让我们开始吧”的字样，就表示 GAE 应用创建成功。
+
+自定义RSS
+少数派 删除
+https://sspai.com/feed
+好奇心日报 删除
+https://rsshub.app/qdaily/category/5
+简书-热门 删除
+https://rsshub.app/jianshu/trending/weekly
+V2EX 删除
+https://rsshub.app/v2ex/topics/latest
+V2EX 删除
+https://rsshub.app/v2ex/topics/latest
+看雪论坛WEB 删除
+https://rsshub.app/pediy/topic/web
+国家地理 删除
+https://rsshub.app/natgeo/dailyphoto
+半月谈 删除
+https://rsshub.app/banyuetan/jicengzhili
+极客公园-全球快讯 删除
+https://rsshub.app/geekpark/breakingnews
+央视新闻 删除
+https://rsshub.app/cctv/world
+观止 删除
+https://rsshub.app/guanzhi
+中国政府-最新政策 删除
+https://rsshub.app/gov/zhengce/zuixin
+One 删除
+https://rsshub.app/one
