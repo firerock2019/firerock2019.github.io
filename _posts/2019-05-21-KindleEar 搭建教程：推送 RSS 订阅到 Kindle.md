@@ -40,14 +40,21 @@ KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在
 - 体验/测试账号：用户名 test、密码 123456
 
 ---
-我的文章都只说我的理解，我觉得这样比较通俗，而且未来我要重新阅读的话也更便于回忆，各位读者就请多担待啦。
-# 一、整体思路
 
-1、 google可以给你一个免费的vps去折腾。
-2、 利用这个，我们可以写个小脚本。让这个vps每天去几个地方抓数据。
-3、 抓好的数据整理成电子书，发送到Kindle的邮箱里。
+
+# 一、想法
+
+通过给Kindle邮箱发邮件能发书到Kindle
+发送我们想看到内容
+RSSHUB现在啥都能订阅
+每天自动从rsshub抓信息，排好版发给Kindle
+这活儿扔给python去做
+需要一个服务器
+薅Google羊毛
 
 # 二、操作步骤
+
+## 1、注册账号
 
 KindleEar 依赖 Google APP Engine，所以你需要有一枚 Google 账号（注册完记得安步骤说明设置一下安全选项），然后创建一个 GAE 应用。以下步骤中，如果某个条件已具备，请忽略相应步骤继续。
 
@@ -55,13 +62,13 @@ KindleEar 依赖 Google APP Engine，所以你需要有一枚 Google 账号（�
 
 Google 账号注册页面：https://accounts.google.com/SignUp
 
-## 3、Google 账号安全设置
+## 2、Google 账号安全设置
 
 Google 账号在默认可能会拒绝将 KindleEar 上传到 GAE，所以需要设置一下。点击下面的链接进入你的 Google 账号“登录与安全”设置页面，找到“允许不够安全的应用”这一项，点击右边的滑动按钮，将其状态切换为“已启用”。注意，为了账号安全，上传完之后建议将此设置恢复为停用状态。
 
 Google 账号设置页面：https://myaccount.google.com/security#connectedapps
 
-## 4、创建一个 Google Cloud 项目
+## 3、创建一个 Google Cloud 项目
 
 KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用中的，所以你需要先创建一个 Google Cloud 项目，然后再创建一个 GAE 应用。点击下面的链接并用你的 Google 账号登录。
 
@@ -71,7 +78,7 @@ KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用�
 
 需要着重注意的是项目名称下方的“项目 ID”，这个 ID 也就是我们后面提到的 APPID。默认情况下，系统会根据你输入的项目名称自动生成项目 ID，但是自动生成字符没有意义，为了方便记忆最好是自定义。点击项目 ID 后面的【修改】按钮，将其修改成你喜欢的字符串组合。这样等 KindleEar 部署成功后，你就可以通过 http://APPID.appspot.com 访问了（注意把 APPID 换成你真实的 APPID）。
 
-## 5、创建 Google App Engine 应用
+## 4、创建 Google App Engine 应用
 
 Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接上传会出现下面这样的错误提示：
 
@@ -98,30 +105,42 @@ gcloud beta app create
 
 方法二：点击 Google Cloud 页面左上角的菜单按钮，点击弹出菜单中的“App Engine”。在“您的第一个应用”那里点击“选择一种语言”，选择“Python”。接下来“选择位置”中页面中选择“us-central”，最后点击下一步就等待它自动部署，只到出现“让我们开始吧”的字样，就表示 GAE 应用创建成功。
 
-自定义RSS
-少数派 删除
+# 三、常见问题
+
+# 四、Rss源分享
+
+少数派
 https://sspai.com/feed
-好奇心日报 删除
+
+好奇心日报 
 https://rsshub.app/qdaily/category/5
-简书-热门 删除
+
+简书-热门 
 https://rsshub.app/jianshu/trending/weekly
-V2EX 删除
+
+V2EX 
 https://rsshub.app/v2ex/topics/latest
-V2EX 删除
-https://rsshub.app/v2ex/topics/latest
-看雪论坛WEB 删除
+
+看雪论坛WEB 
 https://rsshub.app/pediy/topic/web
-国家地理 删除
+
+国家地理 
 https://rsshub.app/natgeo/dailyphoto
-半月谈 删除
+
+半月谈 
 https://rsshub.app/banyuetan/jicengzhili
-极客公园-全球快讯 删除
+
+极客公园-全球快讯 
 https://rsshub.app/geekpark/breakingnews
-央视新闻 删除
+
+央视新闻 
 https://rsshub.app/cctv/world
-观止 删除
+
+观止 
 https://rsshub.app/guanzhi
-中国政府-最新政策 删除
+
+中国政府-最新政策 
 https://rsshub.app/gov/zhengce/zuixin
-One 删除
+
+One 
 https://rsshub.app/one
