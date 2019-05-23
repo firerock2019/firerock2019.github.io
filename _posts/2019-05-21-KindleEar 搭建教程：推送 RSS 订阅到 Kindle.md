@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      「收藏」KindleEar搭建
-subtitle:   远控程序
+subtitle:   拯救Kindle指南
 date:       2019-05-21
 author:     TRY
 header-img: img/home-bg-o.jpg
