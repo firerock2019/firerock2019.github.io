@@ -45,7 +45,7 @@ KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在
 ---
 
 
-# 一、想法
+# 想法
 
 通过给Kindle邮箱发邮件能发书到Kindle  
 发送我们想看到内容  
@@ -55,21 +55,21 @@ RSSHUB现在啥都能订阅
 需要一个服务器  
 薅Google羊毛  
 
-# 二、操作步骤
+# 操作步骤
 
-## 1、注册账号
+## 注册账号
 
 KindleEar 依赖 Google APP Engine，所以需要Google 账号。
 
 Google 账号注册页面：https://accounts.google.com/SignUp
 
-## 2、Google 账号安全设置
+## Google 账号安全设置
 
 Google 账号在默认可能会拒绝将 KindleEar 上传到 GAE，所以需要设置一下。点击下面的链接进入你的 Google 账号“登录与安全”设置页面，找到“允许不够安全的应用”这一项，点击右边的滑动按钮，将其状态切换为“已启用”。注意，为了账号安全，上传完之后建议将此设置恢复为停用状态。
 
 Google 账号设置页面：https://myaccount.google.com/security#connectedapps
 
-## 3、创建一个 Google Cloud 项目
+## 创建一个 Google Cloud 项目
 
 KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用中的，所以你需要先创建一个 Google Cloud 项目，然后再创建一个 GAE 应用。点击下面的链接并用你的 Google 账号登录。
 
@@ -79,7 +79,7 @@ KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用�
 
 需要着重注意的是项目名称下方的“项目 ID”，这个 ID 也就是我们后面提到的 APPID。默认情况下，系统会根据你输入的项目名称自动生成项目 ID，但是自动生成字符没有意义，为了方便记忆最好是自定义。点击项目 ID 后面的【修改】按钮，将其修改成你喜欢的字符串组合。这样等 KindleEar 部署成功后，你就可以通过 http://APPID.appspot.com 访问了（注意把 APPID 换成你真实的 APPID）。
 
-## 4、创建 Google App Engine 应用
+## 创建 Google App Engine 应用
 
 Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接上传会出现下面这样的错误提示：
 
@@ -106,9 +106,9 @@ gcloud beta app create
 
 方法二：点击 Google Cloud 页面左上角的菜单按钮，点击弹出菜单中的“App Engine”。在“您的第一个应用”那里点击“选择一种语言”，选择“Python”。接下来“选择位置”中页面中选择“us-central”，最后点击下一步就等待它自动部署，只到出现“让我们开始吧”的字样，就表示 GAE 应用创建成功。
 
-# 三、常见问题
+# 常见问题
 
-# 四、Rss源分享
+# Rss源分享
 
 少数派
 https://sspai.com/feed
