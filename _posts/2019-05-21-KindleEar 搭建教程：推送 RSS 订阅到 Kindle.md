@@ -14,8 +14,11 @@ tags:
 ---
 # 前言
 文章参考：
+
 [KindleEar 搭建教程：推送 RSS 订阅到 Kindle
-](https://bookfere.com/post/19.html)[使用 Kindle EAR 推送 RSS 到 Kindle 设备](https://www.jianshu.com/p/b1f6826152f5)
+](https://bookfere.com/post/19.html)
+
+[使用 Kindle EAR 推送 RSS 到 Kindle 设备](https://www.jianshu.com/p/b1f6826152f5)
 
 ---
 
@@ -44,21 +47,19 @@ KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在
 
 # 一、想法
 
-通过给Kindle邮箱发邮件能发书到Kindle
-发送我们想看到内容
-RSSHUB现在啥都能订阅
-每天自动从rsshub抓信息，排好版发给Kindle
-这活儿扔给python去做
-需要一个服务器
-薅Google羊毛
+通过给Kindle邮箱发邮件能发书到Kindle  
+发送我们想看到内容  
+RSSHUB现在啥都能订阅  
+每天自动从rsshub抓信息，排好版发给Kindle  
+这活儿扔给python去做  
+需要一个服务器  
+薅Google羊毛  
 
 # 二、操作步骤
 
 ## 1、注册账号
 
-KindleEar 依赖 Google APP Engine，所以你需要有一枚 Google 账号（注册完记得安步骤说明设置一下安全选项），然后创建一个 GAE 应用。以下步骤中，如果某个条件已具备，请忽略相应步骤继续。
-
-点击下面的链接，注册一枚带 @gmail.com 后缀的 Google 账号。
+KindleEar 依赖 Google APP Engine，所以需要Google 账号。
 
 Google 账号注册页面：https://accounts.google.com/SignUp
 
