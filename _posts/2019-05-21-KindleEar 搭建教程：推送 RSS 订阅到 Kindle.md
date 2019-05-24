@@ -83,7 +83,7 @@ KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用�
 
 Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接上传会出现下面这样的错误提示：
 
-``` objc
+``` bash
 
 Error 404: --- begin server output --- 
 
