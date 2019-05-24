@@ -86,7 +86,6 @@ Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接�
 ``` bash
 
 Error 404: --- begin server output --- 
-
 This application does not exist (project_id=u'sample-appid'). To create an App Engine application in this project, run "gcloud beta app create" in your console.
 --- end server output --- 
 
@@ -97,13 +96,12 @@ This application does not exist (project_id=u'sample-appid'). To create an App E
 
 方法一：上面那个错误提示给出了解决方案，直接在云端 Shell 中使用一行命令就能搞定。具体步骤为：点击页面右上角的 [ >_ ] 图标按钮（如下图所示），调出云端 Shell，输入以下命令按回车：
 
-!(创建GoogleAppEngine应用)[https://bookfere.com/wp-content/uploads/2016/04/active-google-cloud-shell.png]
+![创建GoogleAppEngine应用](https://bookfere.com/wp-content/uploads/2016/04/active-google-cloud-shell.png)
 
-(```)
-
+```bash
 gcloud beta app create
 
-(```)
+```
 
 命令执行后会出现 Which region would you like to choose? 字样，询问选择应用的位置，在 Please enter your numeric choice: 之后输入数字 1，稍等片刻即可完成 GAE 应用的创建。
 
