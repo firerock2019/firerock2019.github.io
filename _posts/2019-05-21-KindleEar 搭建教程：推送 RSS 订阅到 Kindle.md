@@ -83,11 +83,13 @@ KindleEar 是免费托管在 Google Cloud 的 Google App Engine（GAE）应用�
 
 Google Cloud 创建完成后需要继续创建一个 GAE 应用，否则直接上传会出现下面这样的错误提示：
 
-``` 
+```   
 
-Error 404: --- begin server output ---
+Error 。404: --- begin server output --- 
+
 This application does not exist (project_id=u'sample-appid'). To create an App Engine application in this project, run "gcloud beta app create" in your console.
---- end server output ---
+--- end server output --- 
+
 ```
 
 
