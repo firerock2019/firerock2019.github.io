@@ -26,14 +26,13 @@ tags:
 
 文章参考：
 
-[KindleEar 搭建教程：推送 RSS 订阅到 Kindle
-](https://bookfere.com/post/19.html)
+[KindleEar 搭建教程：推送 RSS 订阅到 Kindle](https://bookfere.com/post/19.html)
 
 [使用 Kindle EAR 推送 RSS 到 Kindle 设备](https://www.jianshu.com/p/b1f6826152f5)
 
 ---
 
-KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在 Github。它可运行在免费的 Google APP Engine 上，把 RSS 生成排版精美的杂志模式的 MOBI 文件，并按照设置定时自动推送至你的 Kindle。如果你有 Python 和前端基础，还可以自定义排版，生成你需要的最完美的 MOBI 文件。
+​		KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在 Github。它可运行在免费的 Google APP Engine 上，把 RSS 生成排版精美的杂志模式的 MOBI 文件，并按照设置定时自动推送至你的 Kindle。如果你有 Python 和前端基础，还可以自定义排版，生成你需要的最完美的 MOBI 文件。
 
 ![KindleEar 推送 RSS 的效果](http://www.5ikindle.com/uploadImg/20170116/165823809.png)
 
@@ -48,9 +47,9 @@ KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在
 - 强大而且方便的邮件中转服务
 - 和 Evernote/Pocket/Instapaper 等系统的集成
 
-下面这个是体验账号，可以添加一个 RSS 测试推送一下（需要把邮箱账号 kindlefere@gmail.com 添加到 Kindle 的推送信任列表），但请不要正式使用。测试时，请不要更改测试账号密码影响其他人测试。
+  ​	下面这个是体验账号，可以添加一个 RSS 测试推送一下（需要把邮箱账号 kindlefere@gmail.com 添加到 Kindle 的推送信任列表），但请不要正式使用。测试时，请不要更改测试账号密码影响其他人测试。
 
--  体验/测试地址：http://kindle-ear.tk（或 http://kindlefere-feed.appspot.com）
+- 体验/测试地址：http://kindle-ear.tk（或 http://kindlefere-feed.appspot.com）
 - 体验/测试账号：用户名 test、密码 123456
 
 ---
@@ -59,9 +58,7 @@ KindleEar 是一款开源的 Python 程序，由网友 cdhigh 发起，托管在
 
 ## 注册账号
 
-KindleEar 依赖 Google APP Engine，所以需要Google 账号。
-
-Google 账号注册页面：https://accounts.google.com/SignUp
+​	KindleEar 依赖 Google APP Engine，所以需要Google 账号（Google 账号注册页面：https://accounts.google.com/SignUp）
 
 ## Google 账号安全设置
 
