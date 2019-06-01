@@ -47,7 +47,9 @@ tags:
 - 强大而且方便的邮件中转服务
 - 和 Evernote/Pocket/Instapaper 等系统的集成
 
-  ​	下面这个是体验账号，可以添加一个 RSS 测试推送一下（需要把邮箱账号 kindlefere@gmail.com 添加到 Kindle 的推送信任列表），但请不要正式使用。测试时，请不要更改测试账号密码影响其他人测试。
+
+
+​	下面这个是体验账号，可以添加一个 RSS 测试推送一下（需要把邮箱账号 kindlefere@gmail.com 添加到 Kindle 的推送信任列表），但请不要正式使用。测试时，请不要更改测试账号密码影响其他人测试。
 
 - 体验/测试地址：http://kindle-ear.tk（或 http://kindlefere-feed.appspot.com）
 - 体验/测试账号：用户名 test、密码 123456
